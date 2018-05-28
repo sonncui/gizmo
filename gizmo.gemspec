@@ -73,6 +73,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.0.0') then
+      s.required_ruby_version = '2.4.3'
       s.add_runtime_dependency(%q<nokogiri>, [">= 1.4.1"])
       s.add_runtime_dependency(%q<activesupport>, ["~> 4.2.10"])
       s.add_runtime_dependency(%q<tilt>, [">= 1.0.1"])
@@ -83,7 +84,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<cucumber>, [">= 0"])
       s.add_development_dependency(%q<webrat>, [">= 0"])
       s.add_development_dependency(%q<capybara>, [">= 0"])
-    else if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('0.1.1') then
+    else if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('0.1.2') then
         s.add_runtime_dependency(%q<nokogiri>, [">= 1.4.1"])
         s.add_runtime_dependency(%q<activesupport>, ["~> 3.2.22"])
         s.add_runtime_dependency(%q<tilt>, [">= 1.0.1"])
