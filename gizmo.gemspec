@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{rea-gizmo}
+  s.name = %q{gizmo-rea}
   s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Luke Cunningham"]
   s.date = %q{2018-05-17}
   s.default_executable = %q{gizmo}
-  s.description = %q{rea-gizmo is a simple page model testing framework used and sponsored by 'realestate.com.au'. The aim of the project is to DRY up your testing assertions by abstracting code that defines your page resulting in a consistent, easy to maintain test suit}
+  s.description = %q{gizmo is a simple page model testing framework used and sponsored by 'realestate.com.au'. The aim of the project is to DRY up your testing assertions by abstracting code that defines your page resulting in a consistent, easy to maintain test suit}
   s.email = %q{luke@icaruswings.com}
   s.executables = ["gizmo"]
   s.extra_rdoc_files = [
